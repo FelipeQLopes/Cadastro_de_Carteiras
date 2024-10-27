@@ -17,13 +17,31 @@ document.querySelectorAll('.icon-picker input').forEach(input => {
 
 
 function validateForm() {
-    const fields = ["nomeConta", "saldo", "descricaoConta", "meta", "detalhes"];
+    const fields = ["nomeConta", "saldo", "descricaoConta", "meta", "detalhes", "tipo"];
+    
+    // Verifica se todos os campos obrigatórios estão preenchidos
     for (const field of fields) {
         if (document.getElementById(field).value === "") {
             alert(`${field} é obrigatório`);
             return false;
         }
     }
+    
+    // Verifica se um ícone foi selecionado
+    const iconSelected = document.querySelector('.icon-picker input:checked');
+    if (!iconSelected) {
+        alert("Por favor, selecione um ícone.");
+        return false;
+    }
+
+    // Verifica se uma cor foi selecionada
+    const colorSelected = document.querySelector('.color-picker input:checked');
+    if (!colorSelected) {
+        alert("Por favor, selecione uma cor.");
+        return false;
+    }
+
+
     return true;
 }
 
@@ -34,7 +52,10 @@ function addData() {
             saldo: document.getElementById("saldo").value,
             descricaoConta: document.getElementById("descricaoConta").value,
             meta: document.getElementById("meta").value,
-            detalhes: document.getElementById("detalhes").value
+            detalhes: document.getElementById("detalhes").value,
+            tipo: document.getElementById("tipo").value,
+            id_icone: document.querySelector('.icon-picker input:checked').value,
+            id_cor: document.querySelector('.color-picker input:checked').value
         };
 
         fetch('/addContas', {
@@ -47,3 +68,5 @@ function addData() {
         .catch(error => alert("Erro: " + error));
     }
 }
+
+
