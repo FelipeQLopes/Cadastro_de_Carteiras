@@ -1,0 +1,30 @@
+[
+  {
+    "nomeConta": "TESTE",
+    "saldo": "teste",
+    "descricaoConta": "teste",
+    "meta": "teste",
+    "detalhes": "teste"
+  },
+  {
+    "nomeConta": "TESTE",
+    "saldo": "teste",
+    "descricaoConta": "teste",
+    "meta": "teste",
+    "detalhes": "teste"
+  },
+  {
+    "nomeConta": "fadsfasd",
+    "saldo": "fasdfasdf",
+    "descricaoConta": "asdfasdf",
+    "meta": "asdfasdf",
+    "detalhes": "asdfsdfa"
+  },
+  {
+    "nomeConta": "fadsfasd",
+    "saldo": "fasdfasdf",
+    "descricaoConta": "asdfasdf",
+    "meta": "asdfasdf",
+    "detalhes": "asdfsdfa"
+  }
+]
