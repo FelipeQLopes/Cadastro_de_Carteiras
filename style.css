@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Reduced padding for a smaller appearance */
+    max-width: 960px; /* Reduced maximum width */
+    margin: auto;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.preview-section {
+    margin-bottom: 30px; /* Increased spacing */
+}
+
+.preview-box {
+    width: 220px; /* Size of the box */
+    height: 220px; /* Size of the box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #e74c3c; 
+}
+
+#icon-preview {
+    font-size: 100px; /* Larger size for the preview icon */
+    margin: 0; /* Remove margin */
+    border: none; /* Ensure there is no border */
+    background: none; /* Ensure no background is applied */
+}
+
+.form-section {
+    max-width: 600px; /* Reduced maximum width */
+    width: 100%;
+    padding: 20px; /* Reduced padding for the form section */
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.form-section h1 {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.form-inputs {
+    margin-bottom: 20px; /* Space between input groups */
+}
+
+.form-inputs label {
+    margin-bottom: 10px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+    font-size: 18px; /* Increased font size for labels */
+    color: #333; /* Darker color for better visibility */
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    padding: 10px; /* Standard padding for all inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Standard font size */
+}
+
+.saldo-info {
+    display: flex;
+    align-items: center;
+}
+
+.saldo-label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold for clarity */
+}
+
+.options-section {
+    width: 100%;
+    max-width: 800px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.options-section h3 {
+    margin-top: 30px; /* Space above the title */
+    margin-bottom: 10px; /* Space below the title */
+    font-size: 20px; /* Font size for better visibility */
+    color: #333; /* Dark color for contrast */
+}
+
+.icon-picker, .color-picker {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.icon-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.icon-placeholder:hover {
+    border-color: #333;
+}
+
+.color-picker label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Width of the square */
+    height: 60px; /* Height of the square */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.color-picker label:hover {
+    border-color: #333;
+}
+
+.color-picker input {
+    display: none; /* Hide the radio button */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
