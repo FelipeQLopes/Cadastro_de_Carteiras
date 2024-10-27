@@ -9,8 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Reduced padding for a smaller appearance */
-    max-width: 960px; /* Reduced maximum width */
+    padding: 20px; 
+    max-width: 960px;
     margin: auto;
     background-color: #f9f9f9; 
     border-radius: 8px; 
@@ -18,12 +18,12 @@
 }
 
 .preview-section {
-    margin-bottom: 30px; /* Increased spacing */
+    margin-bottom: 30px;
 }
 
 .preview-box {
-    width: 220px; /* Size of the box */
-    height: 220px; /* Size of the box */
+    width: 220px; 
+    height: 220px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,16 +32,16 @@
 }
 
 #icon-preview {
-    font-size: 100px; /* Larger size for the preview icon */
-    margin: 0; /* Remove margin */
-    border: none; /* Ensure there is no border */
-    background: none; /* Ensure no background is applied */
+    font-size: 100px; 
+    margin: 0; 
+    border: none; 
+    background: none; 
 }
 
 .form-section {
-    max-width: 600px; /* Reduced maximum width */
+    max-width: 600px; 
     width: 100%;
-    padding: 20px; /* Reduced padding for the form section */
+    padding: 20px; 
     border: 1px solid #ccc; 
     border-radius: 8px; 
     background-color: #fff; 
@@ -49,28 +49,28 @@
 }
 
 .form-section h1 {
-    margin-bottom: 20px; /* Space below the title */
+    margin-bottom: 20px; 
 }
 
 .form-inputs {
-    margin-bottom: 20px; /* Space between input groups */
+    margin-bottom: 20px; 
 }
 
 .form-inputs label {
-    margin-bottom: 10px; /* Space between label and input */
-    font-weight: bold; /* Make labels bold */
-    font-size: 18px; /* Increased font size for labels */
-    color: #333; /* Darker color for better visibility */
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    font-size: 18px; 
+    color: #333; 
 }
 
 .form-section input,
 .form-section select,
 .form-section textarea {
-    padding: 10px; /* Standard padding for all inputs */
+    padding: 10px; 
     border: 1px solid #ccc;
-    border-radius: 4px; /* Rounded corners */
-    width: 100%; /* Full width */
-    font-size: 16px; /* Standard font size */
+    border-radius: 4px; 
+    width: 100%;
+    font-size: 16px;
 }
 
 .saldo-info {
@@ -79,8 +79,8 @@
 }
 
 .saldo-label {
-    margin-right: 10px; /* Space between label and input */
-    font-weight: bold; /* Bold for clarity */
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .options-section {
@@ -92,10 +92,10 @@
 }
 
 .options-section h3 {
-    margin-top: 30px; /* Space above the title */
-    margin-bottom: 10px; /* Space below the title */
-    font-size: 20px; /* Font size for better visibility */
-    color: #333; /* Dark color for contrast */
+    margin-top: 30px; 
+    margin-bottom: 10px; 
+    font-size: 20px;
+    color: #333;
 }
 
 .icon-picker, .color-picker {
@@ -124,8 +124,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px; /* Width of the square */
-    height: 60px; /* Height of the square */
+    width: 60px; 
+    height: 60px;
     border: 2px solid #ccc;
     border-radius: 8px;
     cursor: pointer;
@@ -137,7 +137,7 @@
 }
 
 .color-picker input {
-    display: none; /* Hide the radio button */
+    display: none; 
 }
 
 button {
