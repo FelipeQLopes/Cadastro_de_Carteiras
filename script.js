@@ -16,10 +16,12 @@ document.querySelectorAll('.icon-picker input').forEach(input => {
 });
 
 function validateForm() {
-    var nomeConta = document.getElementById("nomeConta").value;
 
-    if (nomeConta.trim() === "") {
-        alert("Please enter a name for the account.");
-        return false; 
-    }
+    var nomeConta = document.getElementById("nomeConta").value;
+    var saldo = document.getElementById("saldo").value;
+    var descricaoConta = document.getElementById("descricaoConta").value;
+    var meta = document.getElementById("meta").value;
+    var tipo = document.getElementById("tipo").value;
+    var detalhes = document.getElementById("detalhes").value;   
+    
 }
